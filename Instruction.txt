@@ -1,0 +1,33 @@
+Objectif
+
+L'objectif est de proposer des effets en jQuery sur votre CV.
+
+
+  Mise en place de l’environnement :
+
+
+👉 Récupérez les ressources.
+
+👉 Modifiez le HTML pour afficher vos images.
+
+👉 Créez un fichier script.js à relier à votre index.html.
+
+
+2 - Effets :
+
+
+👉 Au clic sur le bouton “Fade Header”, mettez en place un effet en jQuery afin de faire clignoter ce titre 3 fois avant de se réafficher.
+
+Astuce: vous pouvez utiliser l’effet fade.
+
+👉 Au clic sur le bouton “Color Stack / off”, mettez en place un effet en jQuery afin de passer les éléments de class stack_container en vert.
+
+Astuce: Pensez à utiliser le CSS déjà présent pour switcher vos éléments.
+
+👉 Le texte du bouton doit être modifié: “Color Stack / on”.
+
+👉 Au clic sur le bouton “Color Stack / on”, mettez en place un effet en jQuery afin de passer les éléments de class stack_container à leur état initial.
+
+👉 Le texte du bouton doit être modifié: “Color Stack / off”.
+
+👉 Au clic sur le bouton + de chaque élément, mettez en place un effet “scale” qui va faire grossir l’élément parent avant de le faire revenir à son état initial.
