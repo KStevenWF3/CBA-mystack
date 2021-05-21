@@ -18,9 +18,8 @@ $('#color').click(function(){
 })
 
 //👉 Au clic sur le bouton + de chaque élément, mettez en place un effet “scale” qui va faire grossir l’élément parent avant de le faire revenir à son état initial.
-// mauvaise fonction car mauvaise taille au retour.
 $('.bigger').click(function(){
     $(this).parent().effect("scale", {percent: 160}, 1000, function(){
-        $(this).delay(1000).effect("scale", {percent: 65}, 1000)
+        $(this).removeAttr() // effet trop rapide, trouver autre chose
     });
 });
